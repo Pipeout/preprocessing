@@ -1,5 +1,4 @@
 name: Build and Register Preprocessing Traning Task
-
 on:
   push:
     branches:
