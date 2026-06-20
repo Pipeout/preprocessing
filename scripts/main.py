@@ -32,7 +32,7 @@ class LoadConfig:
             path = base_dir / "configs" / filename
             return path
         except NameError:  # if it is a jupyter file
-            return Path("/training-app/configs/training.yaml")
+            return Path("/preprocessing-app/configs/preprocessing.yaml")
 
     @staticmethod
     def load_config(CONFIG_PATH: Path) -> Any:
